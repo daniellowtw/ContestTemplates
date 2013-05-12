@@ -7,4 +7,5 @@ for t in range(T):
     (A, B) = map(int, f.readline().strip().split(' '))
     res = best_answer
     s = "Case #%d: %s\n" % (t+1, res)
+    o.write(s)
 o.close()
