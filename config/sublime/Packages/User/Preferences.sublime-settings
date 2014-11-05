@@ -1,0 +1,11 @@
+{
+	"enable_tab_scrolling": false,
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Batch File",
+		"Markdown"
+	],
+	"translate_tabs_to_spaces": true
+}

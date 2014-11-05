@@ -1,0 +1,13 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: My Q syntax
+scopeName: source.q
+fileTypes: ["q"]
+uuid: f8a5e06f-cb58-4cd8-a570-3da602b68b1b
+
+patterns:
+- { "match": "\'[a-zA-Z]*",
+  "name": "keyword.source.q",
+  "comment": "Tab stops like $1, $2..."
+}
+...
