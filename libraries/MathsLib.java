@@ -34,8 +34,9 @@ public class MathsLib {
 	}
 
 	// returns base ^ exp mod n
-	public static int fastExpMod(int base, int exp, int n) {
-		int result = 1;
+	public static int fastExpMod(int b, int exp, int n) {
+		long result = 1;
+    long base = b;
 		if (exp == 0)
 			return 1;
 		while (exp > 0) {
@@ -45,7 +46,7 @@ public class MathsLib {
 			base = (base * base) % n;
 			exp = (exp * 2) % n;
 		}
-		return result;
+		return (int)result;
 	}
 
 	public static long gcd(long a, long b) {

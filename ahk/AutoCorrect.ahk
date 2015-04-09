@@ -526,7 +526,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::pirana::piraña
 ::pique::piqué
 ::piqued::piquéd
-::più::più
+::piu::piu
 ::plie::plié
 ::precis::précis
 ::polsa::pölsa
@@ -546,7 +546,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::recherche::recherché
 ::reclame::réclame
 ::résume::résumé
-::resumé::résumé
 ::résumes::résumés
 ::resumés::résumés
 ::retrousse::retroussé
